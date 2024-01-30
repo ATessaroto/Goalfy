@@ -1,0 +1,129 @@
+.PageBody{
+  margin: auto;
+  width: 91%;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+  max-height: 500px;
+  background: #F9F9F9; 
+}
+
+.tools {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    float: left;
+    width: 100%;
+    padding-left: 4.5%;
+    margin: auto
+}
+
+.buttonText{
+    font-size: 13px;
+    font-weight: 600;
+    width: 97px;
+    height:17px;
+}
+
+.TextInput{
+    width: 168px;
+    height:25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1em;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    border: 1px solid #E8E8E8;   
+}
+
+.SelfInput{
+    width: 138px;
+    height:25px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding-left: 0.3em;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.qtdRegistros{
+    padding-left: 1em;
+    font-weight: 500;
+    font-size: 12px;
+    color: #949FA6;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    justify-content: space-between;
+    align-items:flex-start;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+th,td {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #363E40;
+  font-weight: 400;
+  font-size: 13px;
+}
+th {
+  text-align: left;
+}
+thead th {
+  font-weight: 500;
+  background-color: #ffffff;
+  border-radius: 3px;
+}
+tbody tr:hover {
+  background-color: #EEE0FF;
+}
+tbody td {
+  position: relative;
+}
+tbody td:hover:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -9999px;
+  bottom: -9999px;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: -1;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #E8E8E8;
+    
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #949FA6;
+  }
+
+  .registro{
+    width: 20px;
+    height:20px;
+    align-items: center;
+    justify-content: center;
+    color: #FFFF;
+    background-color: transparent;
+    border-radius: 4px;
+    border: none;   
+    cursor: pointer;
+    margin-left: 5%;
+}

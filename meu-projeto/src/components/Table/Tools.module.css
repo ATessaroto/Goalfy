@@ -1,0 +1,63 @@
+.tools {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    float: left;
+    width: 100%;
+    padding-left: 4.5%;
+    margin: auto
+}
+
+.registro{
+    width: 158px;
+    height:29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFF;
+    background-color: #7F23F7;
+    border-radius: 4px;
+    border: none;   
+    cursor: pointer;
+}
+
+.registro:hover{
+    background-color: #9041f8
+}
+
+.buttonText{
+    font-size: 13px;
+    font-weight: 600;
+    width: 97px;
+    height:17px;
+}
+
+.TextInput{
+    width: 168px;
+    height:25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1em;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    border: 1px solid #E8E8E8;   
+}
+
+.SelfInput{
+    width: 138px;
+    height:25px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding-left: 0.4em;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.qtdRegistros{
+    padding-left: 1em;
+    font-weight: 500;
+    font-size: 12px;
+    color: #949FA6;
+}
