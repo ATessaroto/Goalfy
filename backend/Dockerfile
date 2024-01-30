@@ -1,10 +1,10 @@
 FROM node:latest
 
-WORKDIR /app
+WORKDIR /backend
 COPY . .
 
 RUN rm -rf node_modules
 RUN npm i --production
-CMD ["node", "start"]
+CMD ["node", "src/index.js"]
 
 EXPOSE 5002
