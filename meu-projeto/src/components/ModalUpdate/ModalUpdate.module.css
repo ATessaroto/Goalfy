@@ -57,7 +57,7 @@
 
 .modalBody{
     display: block;
-    padding-top: 2em;
+    padding-top: 3em;
     align-items: center;
     justify-content: space-between;
     width: 90%;
@@ -100,7 +100,7 @@
     border-radius: 5px;
     border: 1px solid #E8E8E8;   
     float: left;
-    margin-top: 5px;
+    margin-top: 7px;
     margin-bottom: 8px;
 }
 
@@ -114,7 +114,7 @@
     border-radius: 5px;
     border: 1px solid #E8E8E8;   
     float: left;
-    margin-top: 5px;
+    margin-top: 7px;
 }
 
 .TextInputCidade{
@@ -128,7 +128,7 @@
     border-radius: 5px;
     border: 1px solid #E8E8E8;   
     float: left;
-    margin-top: 5px;
+    margin-top: 7px;
 }
 
 .SelfInput{
@@ -148,7 +148,7 @@ input.SelfInput::-webkit-input-placeholder:focus {
 }
 
 .registro{
-    width: 427px;
+    width: 420px;
     height:48px;
     display: flex;
     align-items: center;
@@ -157,8 +157,8 @@ input.SelfInput::-webkit-input-placeholder:focus {
     border-radius: 4px;
     border: none;   
     cursor: pointer;
-    margin-left: 3%;
-    margin-top: 6%;
+    margin-left: 4%;
+    margin-top: 4%;
 }
 
 .buttonText{
